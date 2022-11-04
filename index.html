@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="szamA">Első érték</label>
+        <input type="text" id="szamA"><br>
+        <label for="szamB">Második érték</label>
+        <input type="text" id="szamB">
+    </form><br>
+
+    <form id="gombok">
+        <input type="button" id="osszeadas" onclick="osszead()" value="+">
+        <input type="button" id="kivonas" onclick="kivon()" value="-">
+        <input type="button" id="szorzas" onclick="szoroz()" value="*">
+        <input type="button" id="osztas" onclick="oszt()" value="/">
+    </form><br>
+
+    <form>
+        <label>Eredmény:</label>
+        <label id="eredmeny"></label>
+    </form>
+
+</body>
+</html>

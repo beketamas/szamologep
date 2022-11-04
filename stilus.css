@@ -1,0 +1,23 @@
+form{
+    background-color: aqua;
+    border-radius: 10%;
+    width: 200px;
+    margin: auto;
+    border: 5px solid ;
+    font-size: larger;
+    padding: 25px;
+}    
+
+body{
+    padding-top: 100px;
+}
+
+#gombok{
+    text-align: center;
+    
+}
+
+input[type=button]{
+    width: 30px;
+    height: 30px;
+}
